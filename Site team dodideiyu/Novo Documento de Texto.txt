@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Brasil - Site Oficial</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: white;
+        }
+        header {
+            background: #1a1a2e;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border: 2px solid white;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: white;
+            color: #1a1a2e;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h2 {
+            font-size: 2em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            background: #1a1a2e;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            text-decoration: none;
+            color: white;
+            background: #2a5298;
+            border-radius: 25px;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background: #1e3c72;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carros Brasil - Site Oficial</h1>
+        <nav>
+            <a href="#galeria">Galeria</a>
+            <a href="#discord">Discord</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Bem-vindo ao mundo de Carros Brasil!</h2>
+        <p>Explore o mundo automotivo brasileiro em Roblox. Atualizações constantes, diversão garantida!</p>
+        <a href="https://www.roblox.com/pt/games/94092597192547/Carros-Brasil-BETA-ATUALIZADO-1-5" class="button">Jogue Agora</a>
+    </div>
+
+    <section id="galeria" class="gallery">
+        <img src="/mnt/data/Design sem nome (6).png" alt="Imagem do jogo 1">
+        <img src="/mnt/data/Design sem nome (5).png" alt="Imagem do jogo 2">
+        <img src="/mnt/data/Design sem nome (3).png" alt="Imagem do jogo 3">
+    </section>
+
+    <section id="discord" class="hero">
+        <h2>Entre no nosso Discord!</h2>
+        <p>Junte-se à nossa comunidade para conversar, compartilhar e ficar por dentro de todas as novidades!</p>
+        <a href="https://discord.gg/7hMWNXU6un" class="button">Entrar no Discord</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Carros Brasil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
